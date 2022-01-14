@@ -1,0 +1,232 @@
+/* application css */
+body {margin:0px;}
+#root {font-family: "Microsoft JhengHei", Arial; margin-left:10px;}
+
+.CodeMirror-linewidget {overflow:visible;}
+
+.CodeMirror , .cm-s-ambiance.CodeMirror {
+  line-height: 1.80em;
+  font-size:120%;
+  font-weight:100;
+  font-family: "Times New Roman","新細明體";
+  user-select: none;
+}
+
+.CodeMirror{
+  background:#cfcfcf;
+}
+.CodeMirror-activeline-background {background: #dfdfdf}
+
+.cm-s-ambiance .CodeMirror-activeline-background {
+  background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.131);
+}
+
+.CodeMirror-cursor { border-left: 3px solid gray; }
+
+.kepan {background:#9f9f9f;display: block;white-space: pre}
+.filterhit {color:#ff7f7f;font-size:75%;font-weight:700;cursor:pointer}
+.filterhit:hover {text-decoration:underline;color:red;}
+.disablefilterhit {color:#ff7f7f;font-size:75%}
+.filterlabel {color:lightblue;cursor:pointer}
+.filterlabel:hover {text-decoration:underline;}
+
+.toclabel {cursor:pointer}
+.toclabel_selected {border:solid 1px blue;border-radius: 3px}
+.toclabel:hover {border-bottom:1px solid blue}
+
+.dicthandle{position: absolute;right:0;cursor: pointer;top:-1em;}
+
+.hitbuttongroup {position: absolute;top:-1.2em;}
+.hitbutton {color:black;border-radius:5px;font-size:80%;cursor:pointer;background: rgba(127,127,255,127)}
+
+
+
+.gotopage {position: absolute;}
+.dictbox .selection {font-size:120%;}
+.dictbox .selected {font-size:120%;background:highlight;cursor: pointer}
+
+.searchbox .input {font-size:100%;width:20em;}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: gray;
+}
+.searchbox .button {font-size:100%;}
+.dbselector .activedbname {font-size:200%;cursor:pointer}
+.dbselector .dbname {cursor:pointer;font-size:200%}
+.dbselector .dbnotopen {font-size:200%}
+.dbselector .unregistered {font-weight : 700;border: solid 1px red; color:red;}
+.dbselector .registered {color:brown;}
+
+.openlocalbutton {cursor:pointer;border:1px black solid;border-radius: 5px}
+.localfile {padding:5px}
+
+.homebar {background: #da9b49}
+
+.homebar .activedb{cursor:pointer;border-bottom:solid 1px brown;
+  text-shadow: 0 0 3px yellow, 0 0 5px black;font-size:115%;font-family: "DFKai-SB"}
+.homebar .modelink {color:brown;cursor:pointer;}
+.homebar .modelink:hover {border-bottom: 1px brown solid}
+.homebar .activemodelink {background:black;pointer-events:none;color:yellow;}
+.homebar .fasciclelink {color:brown;cursor:pointer;}
+.homebar .activegroup {font-weight: 700}
+.bookresult .bookname {cursor:pointer;font-weight: 500}
+.bookresult .bookname:hover {border-bottom: 1px solid blue;}
+.bookresult .hit {color:red;font-size:80%;}
+
+.footer { background: #eac799;text-align:center}
+.footer .separator {border-top:solid 1px silver}
+.excerpt .hitcount {color:red;}
+.totalhitcount{color:red;font-size:120%;}
+.excerpt .seq {margin-left:3}
+.excerpt .pb_now {background-color:yellow}
+.excerpt .excerptpb{cursor:pointer}
+.excerpt .excerptline{white-space:pre;display:block;padding:5px;}
+.excerpt .group{background:white;}
+.excerpt .groupheader{background:#eac799}
+.excerpt .table{width:100%;border-bottom:1px gray dotted}
+.excerpt .fuzzytitle {font-size:120%;cursor:pointer;border-bottom:1px solid blue;}
+
+.excerptpager {font-size:14}
+.excerptpager .pager {text-align:center;margin-left:3;cursor:pointer;color:#0a0a0a;
+  background:#7f7f7f;border-radius:50%;height:1.5em;width:1.5em;display:inline-block}
+
+.excerptpager .selectedpager{text-align:center;margin-left:3;color:yellow;
+  background:black;
+  border-radius:50%;height:1.5em;width:1.5em;display:inline-block}
+
+
+
+.readmainmenu {
+  width:250;height:200;
+  background:silver;border:solid 1px gray;
+  border-radius:5px;padding:5px
+}
+.readmainmenu .uploadmarkupbutton{
+  cursor:pointer;border:1px solid black;border-radius:3px
+}
+
+.localcor {position:absolute;
+  font-size:80%;
+  font-weight: 700;
+  color:brown;
+  border-radius: 50%}
+
+.hide {display:none}
+
+
+.mui-tabs__bar>li>a{
+	line-height: 1.4em;  /*pass as topMargin down to muitab, see index.js*/
+	height:1.4em;
+	color:silver; /*look nicer on ambiance mode*/
+}
+.mui-dropdown__menu>li>a{
+	line-height: 1.4em;  /*pass as topMargin down to muitab, see index.js*/
+	height:1.4em;
+	font-weight: 700;
+	color:black; /*look nicer on ambiance mode*/
+}
+.mui-dropdown__menu>li>a:hover{
+	color:blue; /*look nicer on ambiance mode*/
+}
+.closebutton{
+   float:right;color:white;width:1.1em;margin-top:3px;
+	font-size:125%;border-radius:50%
+}
+.closebutton:hover {
+	background:#ff2f2f;
+}
+
+.clonebutton{
+   float:right;color:white;width:1.1em;margin-top:3px;
+	font-size:125%;border-radius:50%
+}
+.clonebutton:hover {
+	background:#4fff4f;color:green;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    color:white;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+		top: 1.5em;
+		right:0%;
+    visibility: hidden;
+    width: 120px;
+    background-color: silver;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip .tooltipfirst {
+
+	left:0%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+.Resizer {
+    background: #000;
+    opacity: .2;
+    z-index: 1;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+}
+
+ .Resizer:hover {
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+ .Resizer.horizontal {
+    height: 11px;
+    margin: -5px 0;
+    border-top: 5px solid rgba(255, 255, 255, 0);
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+    cursor: row-resize;
+    width: 100%;
+}
+
+.Resizer.horizontal:hover {
+    border-top: 5px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.Resizer.vertical {
+    width: 14px;
+    margin: 0 -5px;
+    border-left: 5px solid rgba(255, 255, 255, 0);
+    border-right: 5px solid rgba(255, 255, 255, 0);
+    cursor: col-resize;
+}
+
+.Resizer.vertical:hover {
+    border-left: 5px solid rgba(0, 0, 0, 0.5);
+    border-right: 5px solid rgba(0, 0, 0, 0.5);
+}
+Resizer.disabled {
+  cursor: not-allowed;
+}
+Resizer.disabled:hover {
+  border-color: transparent;
+}
+.svgbutton {cursor:pointer;border-bottom:solid 1px blue;}
+.hamburger {color:blue;}

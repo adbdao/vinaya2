@@ -1,0 +1,192 @@
+
+.by{color: blue;}
+.bf{color: purple;}
+.bz{color: darkgreen;}
+.ask{color: limegreen;}
+.rep{color: darkred;}
+.si{color: rgba(150, 15, 15, 0.856);}
+.sr{color: rgb(55, 122, 230);}
+.year{color: mediumorchid;}
+.h0{color: lime;}
+.book{color: rgb(30, 194, 30);}
+.sarticle{color: rgba(15, 179, 15, 0.459);}
+.va{color: olivedrab;}
+.eng{color: dodgerblue;}
+.talk{color: steelblue;}
+
+.article {font-size:150%;}
+.pu {position:absolute;top:0.6em;z-index: -10}
+.punc {position:absolute;top:0.8em;color:green;z-index: -10}
+.punc_overlap {position:absolute;top:0.8em;color:green;z-index: -10}
+.collation_delete  {font-size:80%;color:red;position:absolute;top:-1em;}
+.collation_insert {color:green;}
+.svg {user-select: all;}
+.tag:before {content:"<";}
+.tag:after {content:">";}
+.tag{color:blue;font-family: "Courier New";font-weight: 700}
+.closetag:before {content:"</";}
+.closetag:after {content:">";}
+.closetag{color:blue;font-family: "Courier New";font-weight: 700}
+
+.entry {color:blue;}
+.head {font-weight:700;}
+.head0 { color:hsl(30,60%,30%);}
+.head1 { color:hsl(60,60%,30%);}
+.head2 { color:hsl(90,60%,30%);}
+.head3 { color:hsl(120,60%,30%);}
+.head4 { color:hsl(150,60%,30%);}
+.head5 { color:hsl(180,60%,30%);}
+.head6 { color:hsl(210,60%,30%);}
+.head7 { color:hsl(240,60%,30%);}
+.head8 { color:hsl(270,60%,30%);}
+.head9 { color:hsl(300,60%,30%);}
+.head10 { color:hsl(330,60%,30%);}
+.head11 { color:hsl(0,60%,30%);}
+.head12 { color:hsl(30,60%,30%);}
+.head13 { color:hsl(60,60%,30%);}
+.head14 { color:hsl(90,60%,30%);}
+.head15 { color:hsl(120,60%,30%);}
+.head16 { color:hsl(180,60%,30%);}
+.head17 { color:hsl(210,60%,30%);}
+.head18 { color:hsl(240,60%,30%);}
+.head19 { color:hsl(270,60%,30%);}
+.head20 { color:hsl(300,60%,30%);}
+.head21 { color:hsl(330,60%,30%);}
+.head22 { color:hsl(0,60%,30%);}
+.head23 { color:hsl(30,60%,30%);}
+.head24 { color:hsl(60,60%,30%);}
+.head25 { color:hsl(30,60%,30%);}
+.head26 { color:hsl(60,60%,30%);}
+.head27 { color:hsl(90,60%,30%);}
+.head28 { color:hsl(120,60%,30%);}
+.head29 { color:hsl(150,60%,30%);}
+.head30 { color:hsl(180,60%,30%);}
+.head31 { color:hsl(210,60%,30%);}
+.head32 { color:hsl(240,60%,30%);}
+.head33 { color:hsl(270,60%,30%);}
+.head34 { color:hsl(300,60%,30%);}
+.head35 { color:hsl(330,60%,30%);}
+.head36 { color:hsl(0,60%,30%);}
+.head37 { color:hsl(30,60%,30%);}
+.head38 { color:hsl(60,60%,30%);}
+.head39 { color:hsl(90,60%,30%);}
+.head40 { color:hsl(120,60%,30%);}
+.head41 { color:hsl(180,60%,30%);}
+.head42 { color:hsl(210,60%,30%);}
+.head43 { color:hsl(240,60%,30%);}
+.head44 { color:hsl(270,60%,30%);}
+.head45 { color:hsl(300,60%,30%);}
+.head46 { color:hsl(330,60%,30%);}
+.head47 { color:hsl(0,60%,30%);}
+.head48 { color:hsl(30,60%,30%);}
+.head49 { color:hsl(60,60%,30%);}
+
+.hl {color:#7f7fff;}
+.hl0 { background:hsl(0,80%,85%);font-weight: 700}
+.hl1 { background:hsl(60,80%,60%);font-weight: 700}
+.hl2 { background:hsl(30,80%,60%);font-weight: 700}
+.hl3 { background:hsl(240,80%,80%);font-weight: 700}
+.hl4 { background:hsl(180,80%,60%);font-weight: 700}
+.hl5 { background:hsl(88,80%,60%);font-weight: 8}
+
+
+.kai {font-family:"Times New Roman","DFKai-SB"}
+.k {font-family:"Times New Roman","DFKai-SB"}
+.jin {font-family: "Times New Roman","DFKai-SB"}
+.j  {font-family: "Times New Roman","DFKai-SB"}
+.b {font-weight: 700}
+.s {vertical-align: super;}
+
+
+.kai {font-family: "Times New Roman","DFKai-SB"}
+.bold {font-weight: 600}
+.bilink {border-bottom:dotted 1.5px blue;}
+.k {border-bottom:dotted 1.5px blue}
+.origin{font-size:75%;color:blue;cursor:pointer;}
+.origin:before{content:"(";}
+.origin:after{content:")";}
+
+.q {font-family:"Times New Roman","DFKai-SB"}
+.p {}
+.p:before {content:"　";white-space:pre;font-size:200%;}
+
+
+.link {border-bottom:solid 1px blue;cursor:pointer;font-family: Arial;}
+
+.defgroup:before {content:"注釋";white-space: pre;border: 1px solid brown;font-size:100%;border-radius:5px}
+.def {font-size:0.7em;cursor:pointer;font-weight: 700;
+	color:brown;font-family: Arial;}
+
+.footnote {font-size:0.6em;cursor:default;font-weight: 500;
+  top:-1.1em;color:brown;font-family: Arial; padding-right:5px;
+  vertical-align: super;
+} /* need some padding, for mpps 3.39, 3.40 */
+.footnote_ori {
+ position:absolute;
+}
+
+.rubynote {vertical-align: super; color:brown;top:-1.1em;
+font-size:0.7em;}
+.rubynote_ori {
+ position:absolute;
+}
+.yinshunnote {font-size:0.7em;cursor:default;font-weight: 500;
+  top:-1.1em;color:blue;font-family: Arial;vertical-align: super; 
+}
+.yinshunnote_ori {
+ position:absolute;
+}
+
+.linkpopuptitle {font-weight:700,color:white;background:lightblue;
+  cursor:pointer;}
+.linkpopup {border:solid 1px black;background:white;}
+
+
+.notepopuptitle {font-weight:700,color:white;background:lightblue;
+  cursor:pointer;}
+.notepopup {border:solid 1px black;background:white;}
+
+.notelink {font-size:0.7em;cursor:default;font-weight: 500;
+	top:-1.1em;color:brown;position:absolute;font-family: Arial;
+}
+.notelink:before {content:"(";}
+.notelink:after {content:")";}
+
+.taisho_app:before {content:"大正校勘";}
+.taisho_app{color:blue;}
+
+
+.note {font-size:0.7em;cursor:pointer;font-family: Arial;
+	top:-1.1em;color:red;position:absolute;}
+.ptr {font-size:0.7em;cursor:pointer;font-family: Arial;
+  top:-1.1em;
+	color:brown;font-weight: 700;padding-right:5px;vertical-align: super;}
+.ptr_ori {position: absolute;}
+.ptr_popup {position:absolute;top:-1.1em;}
+
+.highlight{background: #fff1c2}
+
+.followbuttongroup {position:absolute;cursor:pointer;
+ z-index: 300;top:-1.1em;line-height:1em}
+.followbutton {font-size:0.8em;cursor:pointer;background:rgba(192,255,192,0.5);
+  font-family: Arial,"Microsoft JhengHei";
+  z-index: 300;font-weight: 500;color:black;padding:2px;margin:2px;
+  border-radius: 3px;display:inline-block}
+
+.inlinenote {font-size:70%;color:brown;}
+.translation {color:black;font-size:80%;font-family: Serif;font-weight:500;}
+.authurseg{font-weight: 700;font-family: "標楷體"}
+.backlink{cursor:pointer}
+.backlink:hover{background:#ffff7f}
+.backlink_originate{font-weight: 700;border:1px solid blue;cursor:pointer}
+
+.inlinesvg {user-select:all}
+.salun {font-family:"Times New Roman","DFKai-SB"}
+.salun.authorseg {font-weight: 700;font-family: "標楷體"}
+
+
+.pb {border-top:0.5px dashed gray; text-align:right; width:93%;height:1px}
+.pblabel {position:absolute;color:gray;top:-0.5em;font-size:80%;font-weight: 200;font-family: Arial}
+.inlinepb {font-size:80%;font-weight: 200;font-family: Arial;color:blue;}
+.inlinepb:before {content:"[";}
+.inlinepb:after {content:"]";}

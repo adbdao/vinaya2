@@ -1,8 +1,8 @@
-# vinaya2 for Accelon2017
-> #### 聲明：原著者是祥因法師！原本用於Accelon3的XML檔  
+# 《佛教律學彙集》 vinaya2 for Accelon2017
+> #### 聲明：原著者是釋祥因法師！原本用於Accelon3的XML檔  
   
 >> 展示網址 https://adbdao.github.io/vinaya2/  
-[單機版](http://nanputo.myweb.hinet.net/bhscjeq20170426.zip)  
+[單機版下載] https://github.com/adbdao/vinaya2/tags  
   
 >> 最新下載資訊 http://adbdao.blogspot.com/2018/07/blog-post.html  
   
