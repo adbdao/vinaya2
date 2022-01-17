@@ -85,7 +85,7 @@ body {margin:0px;}
 .excerpt .table{width:100%;border-bottom:1px gray dotted}
 .excerpt .fuzzytitle {font-size:120%;cursor:pointer;border-bottom:1px solid blue;}
 
-.excerptpager {font-size:14}
+.excerptpager {font-size:14;font-size: 1.5em;font-weight: 700;}
 .excerptpager .pager {text-align:center;margin-left:3;cursor:pointer;color:#0a0a0a;
   background:#7f7f7f;border-radius:50%;height:1.5em;width:1.5em;display:inline-block}
 
@@ -230,3 +230,41 @@ Resizer.disabled:hover {
 }
 .svgbutton {cursor:pointer;border-bottom:solid 1px blue;}
 .hamburger {color:blue;}
+
+@media (prefers-color-scheme: dark) {
+.searchbox .button {font-size:1.2em;background: hotpink;}
+.localfile {padding:5px;font-size: 3em;background:#333;border-left: 5px solid snow;border-top: 5px solid snow;border-right: 5px solid gray;border-bottom: 5px solid gray;}
+.homebar {background: darkslategray}
+.footer { background: darkslategray;text-align:center}
+
+.Resizer {
+  background: snow;
+}
+
+.Resizer.horizontal {
+  border-top: 5px solid snow;
+  border-bottom: 5px solid snow;
+}
+
+.Resizer.horizontal:hover {
+  border-top: 5px solid beige;
+  border-bottom: 5px solid beige;
+}
+
+.Resizer.vertical {
+  width: 14px;
+  margin: 0 -5px;
+  border-left: 5px solid snow;
+  border-right: 5px solid snow;
+  cursor: col-resize;
+}
+
+.Resizer.vertical:hover {
+  border-left: 5px solid beige;
+  border-right: 5px solid beige;
+}
+
+.hitbutton {color:white;background:brown}
+.excerpt .groupheader{background:darkolivegreen}
+.excerpt .pb_now {background-color:purple}
+}

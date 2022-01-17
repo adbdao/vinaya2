@@ -11,7 +11,7 @@
 	{name:"IDS漢字",url:"http://www.chise.org/ids-find?components=$$",max:1},
 	{name:"英漢",url:"http://cdict.net/?q=$$"},
 	{name:"Bing",url:"https://www.bing.com/search?q=$$&PC=U316&FORM=CHROMN"},
-	{name:"影片",url:"https://www.youtube.com/results?search_query=$$&page={startPage?}&utm_source=opensearch"}
+	{name:"Youtube",url:"https://www.youtube.com/results?search_query=$$&page={startPage?}&utm_source=opensearch"}
 
 ]
 	}

@@ -11005,7 +11005,7 @@ const DictView=require("./dictview");
 const styles={
 	container:{display:"flex",flexDirection:"column",height:"100%"},
 	dictionary:{flex:2,overflowY:"auto"},
-	reference:{height:"90%"},
+	reference:{height:"70%"},
 }
 class ReadAux extends React.Component {
 	render(){
@@ -12445,7 +12445,7 @@ const stringtable={
 	["Select DB","選資料庫"],
 	["Home Page","主頁面"],
 	["Group By Book","檢索所得"],
-	["Excerpt","摘要"],
+	["Excerpt","搜尋結果摘要"],
 	["Read Text","閱讀內文"],
 	["Matches","總筆數"],
 	["Sort by hit","按筆數排序"],
@@ -12473,7 +12473,7 @@ const stringtable={
 	["about","關於"],
 	["build date","建置於"],
 	["no result","無搜尋結果"],
-	["unknowncor","來路不明"],
+	["unknowncor","釋道中編輯"],
 	["download latest zip and cor files, and open index.html",
 	"下載最新的zip及所需之資料庫，再打開index.html"],
 	["backlink","逆向連結"]
