@@ -7,6 +7,8 @@
 >> 最新Accelon下載資訊 http://adbdao.blogspot.com/2018/07/blog-post.html  
   
 ---  
+>### v2.1版後，加入深色模式，會自動隨著瀏覽器的模式，變為深色或淺色模式
+---  
 #### Git常用指令  
 * 刪除上一次推送。出問題時，使用此命令  
 git remote rm origin  
