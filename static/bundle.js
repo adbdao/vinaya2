@@ -12465,7 +12465,7 @@ const stringtable={
 	["Puncuation to enable Fuzzy Search","條件含有標點符號啟用模糊搜尋（實驗性）"],
 	["Open local cor","開啟本機資料庫"],
 	["click and select one or more *.cor file in your local drive",
-	"↓↓請開啟本機資料庫"],
+	"↓↓請開啟本機資料庫 (若線上使用時，不必開啟，請稍等即可！)"],
 	["Require Cor:","需要資料庫："],
 	["local cor","本機"],
 	["local system","單機版"],

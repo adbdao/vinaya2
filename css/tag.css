@@ -82,12 +82,13 @@
 .head49 { color:hsl(60,60%,30%);}
 
 .hl {color:#7f7fff;}
-.hl0 { background:hsl(0,80%,85%);font-weight: 700}
-.hl1 { background:hsl(60,80%,60%);font-weight: 700}
-.hl2 { background:hsl(30,80%,60%);font-weight: 700}
-.hl3 { background:hsl(240,80%,80%);font-weight: 700}
-.hl4 { background:hsl(180,80%,60%);font-weight: 700}
-.hl5 { background:hsl(88,80%,60%);font-weight: 8}
+.hl0 { background:hsl(0,80%,80%);font-weight: 700}
+.hl1 { background:hsl(120,80%,80%);font-weight: 700}
+.hl2 { background:hsl(30,80%,80%);font-weight: 700}
+.hl3 { background:hsl(200,80%,90%);font-weight: 700}
+.hl4 { background:hsl(260,80%,85%);font-weight: 700}
+.hl5 { background:hsl(80,80%,60%);font-weight: 700}
+.hl6 { background:hsl(300,80%,70%);font-weight: 700}
 
 
 .kai {font-family:"Times New Roman","DFKai-SB"}
@@ -277,13 +278,14 @@ font-size:0.7em;}
 .head48 { color:hsl(30,60%,70%);}
 .head49 { color:hsl(60,60%,70%);}
 
-.hl {color:#5e5effc5;}
+.hl {color:hsl(240,60%,70%);}
 .hl0 { background:hsl(0,80%,30%);font-weight: 700}
 .hl1 { background:hsl(150,80%,30%);font-weight: 700}
-.hl2 { background:hsl(40,80%,30%);font-weight: 700}
-.hl3 { background:hsl(240,80%,30%);font-weight: 700}
-.hl4 { background:hsl(180,80%,30%);font-weight: 700}
-.hl5 { background:hsl(88,80%,30%);font-weight: 8}
+.hl2 { background:hsl(30,80%,50%);font-weight: 700}
+.hl3 { background:hsl(200,80%,60%);font-weight: 700}
+.hl4 { background:hsl(260,80%,60%);font-weight: 700}
+.hl5 { background:hsl(80,80%,30%);font-weight: 700}
+.hl6 { background:hsl(300,80%,60%);font-weight: 700}
 
 
 .kai {font-family:"Times New Roman","DFKai-SB"}
