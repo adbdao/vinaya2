@@ -9626,6 +9626,7 @@ class Footer extends React.Component{
 					,E("div",{},"Freely Redistributable")
 					,E("div",{},"本軟體為結緣品，可自由散佈。")
 					,E("div",{},"資料庫的授權方式請點旁邊的「關於」。")
+					,E("a",{href:"readme.htm"},"使用教學")
 				)
 			))))
 		)
