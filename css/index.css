@@ -269,4 +269,16 @@ Resizer.disabled:hover {
 .excerpt .pb_now {background-color:purple}
 .hamburger {color:cyan;}
 
+.CodeMirror-activeline-background {background: slateblue}
+
+.mui-dropdown__menu>li>a{
+	line-height: 1.4em;  /*pass as topMargin down to muitab, see index.js*/
+	height:1.4em;
+	font-weight: 700;
+	color:magenta; /*look nicer on ambiance mode*/
+}
+.mui-dropdown__menu>li>a:hover{
+	color:maroon; /*look nicer on ambiance mode*/
+	font-weight: 900;
+}
 }

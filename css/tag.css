@@ -363,7 +363,7 @@ font-size:0.7em;}
 .ptr_ori {position: absolute;}
 .ptr_popup {position:absolute;top:-1.1em;}
 
-.highlight{background: #fff1c2}
+.highlight{background: darkred}
 
 .followbuttongroup {position:absolute;cursor:pointer;
  z-index: 300;top:-1.1em;line-height:1em}
