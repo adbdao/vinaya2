@@ -1,0 +1,12 @@
+
+npm
+ksana-corpus-lib
+
+package-lock.json
+desktop.ini
+
+*.zip
+*.bak
+*.log
+*.db
+

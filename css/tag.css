@@ -1,4 +1,4 @@
-
+.group{color: blueviolet;}
 .by{color: blue;font-weight: 700;}
 .bf{color: purple;font-weight: 700;}
 .bz{color: darkgreen;font-weight: 700;}
@@ -195,6 +195,7 @@ font-size:0.7em;}
 
 @media (prefers-color-scheme: dark) {
 *{color: yellow;background: black;}
+.group{color: orchid;}
 .by{color: lightblue;}
 .bf{color: plum;}
 .bz{color: greenyellow;}
