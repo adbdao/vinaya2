@@ -1,5 +1,5 @@
 ﻿	window.accelon2017={
-		corpora:["vinaya2","samgha_picture","v4search","yugasidi","taisho","nanchuan","yinshun","taixu","mpps","manual"],
+		corpora:["vinaya2","samgha_picture","v4search","yugasidi","ajm","zhimin","taisho","nanchuan","yinshun","taixu","mpps","manual"],
 		dictionaries:[
 	{name:"一行",url:"http://buddhaspace.org/dict/index.php?keyword=$$"},
 	{name:"萌典",url:"https://www.moedict.tw/$$"},

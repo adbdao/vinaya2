@@ -1,4 +1,10 @@
-.group{color: blueviolet;}
+.je{color: olivedrab;font-weight: 800;}
+.le{color: darkviolet;font-weight: 800;}
+.xa{color: royalblue;font-weight: 800;}
+.wi{color: dodgerblue;font-weight: 800;}
+.pe{color: sienna;font-weight: 800;}
+.zi{color: red;font-weight: 800;}
+.group{color: blueviolet;font-weight: 800;}
 .by{color: blue;font-weight: 700;}
 .bf{color: purple;font-weight: 700;}
 .bz{color: darkgreen;font-weight: 700;}
@@ -195,21 +201,27 @@ font-size:0.7em;}
 
 @media (prefers-color-scheme: dark) {
 *{color: yellow;background: black;}
-.group{color: orchid;}
-.by{color: lightblue;}
-.bf{color: plum;}
-.bz{color: greenyellow;}
-.ask{color: lime;}
-.rep{color: red;}
-.si{color: magenta;}
-.sr{color: cyan;}
-.year{color: mediumorchid;}
-.h0{color: lime;}
-.book{color: lightgreen;}
-.sarticle{color: greenyellow;}
-.va{color: yellowgreen;}
-.eng{color: cyan;}
-.talk{color: lightcyan;}
+.je{color: darkseagreen;font-weight: 800;}
+.le{color: mediumpurple;font-weight: 800;}
+.xa{color: mediumturquoise;font-weight: 800;}
+.wi{color: skyblue;font-weight: 800;}
+.pe{color: palegoldenrod;font-weight: 800;}
+.zi{color: hotpink;font-weight: 800;}
+.group{color: orchid;font-weight: 800;}
+.by{color: lightblue;font-weight: 700;}
+.bf{color: plum;font-weight: 700;}
+.bz{color: greenyellow;font-weight: 700;}
+.ask{color: lime;font-weight: 700;}
+.rep{color: red;font-weight: 700;}
+.si{color: magenta;font-weight: 700;}
+.sr{color: cyan;font-weight: 700;}
+.year{color: mediumorchid;font-weight: 700;}
+.h0{color: lime;font-weight: 700;}
+.book{color: lightgreen;font-weight: 700;}
+.sarticle{color: greenyellow;font-weight: 700;}
+.va{color: yellowgreen;font-weight: 700;}
+.eng{color: cyan;font-weight: 700;}
+.talk{color: lightcyan;font-weight: 700;}
 
 
 .article {font-size:150%;color: mediumvioletred;font-weight: 700;}
@@ -347,7 +359,7 @@ font-size:0.7em;}
 .notepopup {border:solid 1px beige;background:white;}
 
 .notelink {font-size:0.7em;cursor:default;font-weight: 500;
-	top:-1.1em;color:tan;position:absolute;font-family: Arial;
+	top:-0.2em;color:tan;position:absolute;font-family: Arial;line-height: 0.7em;
 }
 .notelink:before {content:"(";}
 .notelink:after {content:")";}
