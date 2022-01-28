@@ -157,7 +157,7 @@ font-size:0.7em;}
 .notelink {font-size:0.7em;cursor:default;font-weight: 500;
 	top:-1.1em;color:brown;position:absolute;font-family: Arial;
 }
-.notelink:before {content:"(";}
+.notelink:before {content:"▼(";}
 .notelink:after {content:")";}
 
 .taisho_app:before {content:"大正校勘";}
@@ -359,9 +359,9 @@ font-size:0.7em;}
 .notepopup {border:solid 1px beige;background:white;}
 
 .notelink {font-size:0.7em;cursor:default;font-weight: 500;
-	top:-0.2em;color:tan;position:absolute;font-family: Arial;line-height: 0.7em;
+	top:-0.2em;color:hotpink;position:absolute;font-family: Arial;line-height: 0.7em;
 }
-.notelink:before {content:"(";}
+.notelink:before {content:"▼(";}
 .notelink:after {content:")";}
 
 .taisho_app:before {content:"大正校勘";}
