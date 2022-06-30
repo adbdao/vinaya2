@@ -19,6 +19,7 @@
 .va{color: olivedrab;font-weight: 700;}
 .eng{color: dodgerblue;font-weight: 700;}
 .talk{color: steelblue;font-weight: 700;}
+.other { color:hsl(300,60%,40%);font-weight: 700;}
 
 .article {font-size:150%;color: mediumvioletred;font-weight: 700;}
 .pu {position:absolute;top:0.6em;z-index: -10}
@@ -199,6 +200,7 @@ font-size:0.7em;}
 .inlinepb:before {content:"[";}
 .inlinepb:after {content:"]";}
 
+
 @media (prefers-color-scheme: dark) {
 *{color: yellow;background: black;}
 .je{color: darkseagreen;font-weight: 800;}
@@ -222,7 +224,7 @@ font-size:0.7em;}
 .va{color: yellowgreen;font-weight: 700;}
 .eng{color: cyan;font-weight: 700;}
 .talk{color: lightcyan;font-weight: 700;}
-
+.other { color:hsl(300,60%,70%);font-weight: 700;}
 
 .article {font-size:150%;color: mediumvioletred;font-weight: 700;}
 .pu {position:absolute;top:0.6em;z-index: -10}
