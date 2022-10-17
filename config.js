@@ -7,6 +7,7 @@
 		"yugasidi",
 		"paauk",
 		"paauk_nopic",
+		"ven_ziyu",
 		"ajm",
 		"zhimin",
 		"ts_lin",
