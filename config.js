@@ -10,6 +10,7 @@
 		"ven_ziyu",
 		"ajm",
 		"zhimin",
+		"library",
 		"ts_lin",
 		"buddhist_dictionary",
 		"panna2011",
