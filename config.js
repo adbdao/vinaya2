@@ -23,7 +23,8 @@
 		"taixu",
 		"mpps",
 		"manual",
-		"j13"
+		"j13",
+		"thonzu"
 	],
 	dictionaries: [
 		{ name: "一行", url: "http://buddhaspace.org/dict/index.php?keyword=$$" },
