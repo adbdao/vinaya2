@@ -12,6 +12,7 @@
 		"zhimin",
 		"library",
 		"ts_lin",
+		"china_buddhist",
 		"buddhist_dictionary",
 		"panna2011",
 		"kt",
