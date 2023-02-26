@@ -1,6 +1,7 @@
 ﻿window.accelon2017 = {
 	corpora: [
 		"vinaya2",
+		"sila_more",
 		"sila",
 		"samgha_picture",
 		"v4search",
