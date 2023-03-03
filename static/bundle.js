@@ -14354,9 +14354,12 @@ const CorpusView=React.createClass({
 			const vp=cm.getViewport();
 			const from=this.fromLogicalPos({line:vp.from,ch:0});
 			var to=this.fromLogicalPos({line:vp.to,ch:0});
+      const self=this;
 			if (to<from) to=this.props.article.end;
-			decorate.call(this,from,to);
-			this.onViewport&&this.onViewport(cm,vp.from,vp.to,from,to); //extra params start and end kpos
+      cm.operation( function(){
+        decorate.call(self,from,to);
+        self.onViewport&&self.onViewport(cm,vp.from,vp.to,from,to); //extra params start and end kpos          
+      });
 			this.addresschanged=true;
 		}.bind(this),50);
 	}
