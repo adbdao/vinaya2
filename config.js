@@ -5,6 +5,7 @@
 		"sila",
 		"samgha_picture",
 		"v4search",
+		"by",
 		"yugasidi",
 		"paauk",
 		"paauk_nopic",
